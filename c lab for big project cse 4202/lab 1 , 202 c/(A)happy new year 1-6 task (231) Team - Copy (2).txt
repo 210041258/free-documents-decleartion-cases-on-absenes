@@ -1,0 +1,28 @@
+#include<stdio.h>
+int start(int n);
+
+int main(){
+int n;
+scanf("%d",&n);
+int x;
+x = start(n);
+printf("%d",x);
+return 0;
+}
+
+int start(int n){
+    int sum = 0;
+    int x,y;
+    int z[3];
+    int p=0;
+    if((1<=n)&&(n<=100)){
+        for(x=0;x<n;x++){
+            for(y=0;y<3;y++){
+                scanf("%d",&z[y]);
+                if(z[y]){p++;}
+            }
+            if(p>1){++sum;p=0;}
+        }
+}
+return sum;
+}

@@ -1,0 +1,59 @@
+PS C:\Users\ahmed> & C:/Users/ahmed/AppData/Local/Microsoft/WindowsApps/python3.12.exe "c:/Users/ahmed/Desktop/lab tasks/210041258_sqlite.py"
+c:\Users\ahmed\Desktop\lab tasks\210041258_sqlite.py:6: MovedIn20Warning: The ``declarative_base()`` function is now available as sqlalchemy.orm.declarative_base(). (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base = declarative_base()
+2024-11-05 09:11:34,601 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2024-11-05 09:11:34,601 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("books")
+2024-11-05 09:11:34,601 INFO sqlalchemy.engine.Engine [raw sql] ()
+2024-11-05 09:11:34,602 INFO sqlalchemy.engine.Engine COMMIT
+2024-11-05 09:11:34,603 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2024-11-05 09:11:34,608 INFO sqlalchemy.engine.Engine INSERT INTO books (title, author, published_year, price) VALUES (?, ?, ?, ?)
+2024-11-05 09:11:34,608 INFO sqlalchemy.engine.Engine [generated in 0.00075s] ('The Great Gatsby', 'F. Scott Fitzgerald', 1925, 10.99)
+2024-11-05 09:11:34,610 INFO sqlalchemy.engine.Engine COMMIT
+2024-11-05 09:11:34,614 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2024-11-05 09:11:34,618 INFO sqlalchemy.engine.Engine SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.published_year AS books_published_year, books.price AS books_price
+
+FROM books
+WHERE books.id = ?
+2024-11-05 09:11:34,618 INFO sqlalchemy.engine.Engine [generated in 0.00100s] (1,)
+2024-11-05 09:11:34,619 INFO sqlalchemy.engine.Engine SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.published_year AS books_published_year, books.price AS books_price
+
+FROM books
+2024-11-05 09:11:34,621 INFO sqlalchemy.engine.Engine [generated in 0.00058s] ()
+Id : 1,Title: The Great Gatsby, Author: F. Scott Fitzgerald, Year: 1925, Price: 10.99, Status: added
+2024-11-05 09:11:34,622 INFO sqlalchemy.engine.Engine SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.published_year AS books_published_year, books.price AS books_price
+
+FROM books
+WHERE books.title = ?
+ LIMIT ? OFFSET ?
+2024-11-05 09:11:34,623 INFO sqlalchemy.engine.Engine [generated in 0.00051s] ('The Great Gatsby', 1, 0)
+2024-11-05 09:11:34,624 INFO sqlalchemy.engine.Engine UPDATE books SET price=? WHERE books.id = ?
+2024-11-05 09:11:34,625 INFO sqlalchemy.engine.Engine [generated in 0.00060s] (12.99, 1)
+2024-11-05 09:11:34,626 INFO sqlalchemy.engine.Engine COMMIT
+2024-11-05 09:11:34,629 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2024-11-05 09:11:34,632 INFO sqlalchemy.engine.Engine SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.published_year AS books_published_year, books.price AS books_price
+
+FROM books
+WHERE books.id = ?
+2024-11-05 09:11:34,632 INFO sqlalchemy.engine.Engine [cached since 0.01468s ago] (1,)
+2024-11-05 09:11:34,633 INFO sqlalchemy.engine.Engine SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.published_year AS books_published_year, books.price AS books_price
+
+FROM books
+2024-11-05 09:11:34,633 INFO sqlalchemy.engine.Engine [cached since 0.01398s ago] ()
+Id : 1,Title: The Great Gatsby, Author: F. Scott Fitzgerald, Year: 1925, Price: 12.99, Status: updated
+2024-11-05 09:11:34,634 INFO sqlalchemy.engine.Engine SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.published_year AS books_published_year, books.price AS books_price
+
+FROM books
+WHERE books.title = ?
+ LIMIT ? OFFSET ?
+2024-11-05 09:11:34,634 INFO sqlalchemy.engine.Engine [cached since 0.01334s ago] ('The Great Gatsby', 1, 0)
+2024-11-05 09:11:34,634 INFO sqlalchemy.engine.Engine DELETE FROM books WHERE books.id = ?
+2024-11-05 09:11:34,634 INFO sqlalchemy.engine.Engine [generated in 0.00032s] (1,)
+2024-11-05 09:11:34,634 INFO sqlalchemy.engine.Engine COMMIT
+2024-11-05 09:11:34,640 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2024-11-05 09:11:34,641 INFO sqlalchemy.engine.Engine SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.published_year AS books_published_year, books.price AS books_price
+
+FROM books
+2024-11-05 09:11:34,641 INFO sqlalchemy.engine.Engine [cached since 0.02129s ago] ()
+Title: The Great Gatsby, Status: deleted
+PS C:\Users\ahmed> 
+ *  History restored 

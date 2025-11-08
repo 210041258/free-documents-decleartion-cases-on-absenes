@@ -1,0 +1,41 @@
+#include<stdio.h>
+#include<string.h>
+#include<ctype.h>
+int main()
+{
+    int x,m=0;
+    char name[100];
+    gets(name);
+
+    for(x=0; x<=(strlen(name)-1); x++)
+    {
+        if(!((islower(name[x]))&&(((strlen(name)-1)>=100))))
+    {
+        return 0;
+    }
+}
+for(x=0; x<=(strlen(name)-1); x++)
+    {
+        if((name[x]='w')||(name[x]='j')||(name[x]='m')||(name[x]='z')||(name[x]='b')||(name[x]='r'))
+        {
+            m++;
+        }
+    }
+    if(check(m))
+    {
+        printf("CHAT WITH HER!");
+    }
+    else
+    {
+        printf("IGNORE HIM!");
+    }
+    return 0;
+}
+int check(int x)
+{
+    if(x%2==0)
+    {
+        return 1;
+    }
+    return 0;
+}
