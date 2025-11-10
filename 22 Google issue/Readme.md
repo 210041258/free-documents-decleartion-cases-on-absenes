@@ -1,1 +1,1 @@
-# the work on albremvoice@gmail.com
+# the work upon albremvoice@gmail.com (termination of violation of google )
