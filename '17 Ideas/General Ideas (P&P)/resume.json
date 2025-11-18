@@ -1,0 +1,180 @@
+{
+  "basics": {
+    "name": "Bohdan Herasymenko",
+    "label": "Web Developer",
+    "picture": "https://scontent.fiev12-1.fna.fbcdn.net/v/t1.0-9/17553861_1463002010385019_3603539927289037138_n.jpg?_nc_cat=0&oh=c2d945bda260f22aca7f4ab4b9309506&oe=5B7DCD62",
+    "email": "www.de31k@gmail.com",
+    "phone": "(+38) 096-86-15-206",
+    "summary": "Hi! Brief introduction :) Bohdan Herasymenko 25 years old, Ukraine. Grew up in an industrial city of Kharkiv. In 2016 received Master's degree at National University of Economics, speciality: Informational Management Systems and Technologies. Began working while being the 4th year student in 2014 and since that moment acquired different technical and social skills. Consider open mindedness, willingness to learn and interest in tough challenges to be my strongest skills. I believe that friendliness, intelligence and decency are the most important qualities of any team member and always try to fit to these qualities :)",
+    "location": {
+      "address": "162-G Traktorobudivnikiv av.",
+      "postalCode": "61129",
+      "city": "Kharkiv",
+      "countryCode": "UA",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "Facebook",
+        "username": "Bohdan Herasymenko",
+        "url": "https://www.facebook.com/de31k"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Adorama",
+      "position": ".NET Web Developer",
+      "website": "https://www.adorama.com/",
+      "startDate": "2014-05-25",
+      "endDate": "2015-11-10",
+      "summary": "Worked as an outsource employee at an e-commerce platform with headquarters located in US. The platform demanded fluency in every field available, from front-end development to optimizing DB performance or automating data migration with SSIS packages",
+      "highlights": [
+        "Direct customer communication",
+        "Working as a cohesive member of a huge team (53 members)",
+        "SSIS packages development and integration",
+        "High emphasis on DB and overall web-site performance"
+      ]
+    },
+    {
+      "company": "One Technologies",
+      "position": "Full Stack Web Developer",
+      "website": "http://www.onetechnologies.com/",
+      "startDate": "2016-01-25",
+      "endDate": "2017-05-01",
+      "summary": "As an member of outsourced team I was responsible for web development of new member portal, making full use of full development chain from DB to front-end.",
+      "highlights": [
+        "Valuable experience of working with microservice architecture",
+        "Commercial experience Coffee script, Durandal, JADE, LESS web stack",
+        "Direct product owner communication",
+	"Experience of working within 5-member SCRUM team"
+      ]
+    },
+    {
+      "company": "Everydayhealth.com",
+      "position": ".NET Developer",
+      "website": "https://www.everydayhealth.com/",
+      "startDate": "2017-05-01",
+      "endDate": "2017-11-25",
+      "summary": "As a member of a single-member team was in charge of optimizing and improving the platform's internal architecture, performance and back-end structure. Implemented various data migrations and set up multiple automated jobs, services and workers to keep platform internals consistent and in shape.",
+      "highlights": [
+        "Direct product owner communication",
+        "Successfully led various technical projects to successful completion",
+        "Experience of working as a single member of kanban team",
+        "Strengthened my skills within SQL Server and SSIS fields",
+        "Received valuable experience of asynchronous programming",
+        "Experience of working under pressure within tightly packed schedule"
+      ]
+    },
+    {
+      "company": "BARE International",
+      "position": ".NET Developer",
+      "website": "https://www.bareinternational.com/",
+      "startDate": "2017-11-25",
+      "summary": "The main project objective is providing the internal stuff of the company with a robust and highly performant CRM system, which provides functionality to import, transform, analyze and export data from/into various sources and allows employees to create various report and perform basic data mining with the ability of export and further analysis in external tools.",
+      "highlights": [
+        "Experience of working within a performance oriented environment",
+        "DB profiling, query optimization"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Kharkiv National University of Economics",
+      "area": "Information Technology",
+      "studyType": "Master",
+      "startDate": "2010-09-01",
+      "endDate": "2016-06-31",
+      "courses": [
+        "Microsoft IT Academy - .NET Basics"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Vantage",
+      "keywords": [
+        "HTML",
+        "JADE",
+        "CSS",
+        "SASS",
+        "LESS",
+        "Javascript (ES5, ES6)",
+        "Knockout.js",
+	"Durandal",
+	"React.js",
+	"React native (basic)"
+      ]
+    },
+    {
+      "name": "Backend Development",
+      "level": "Vantage",
+      "keywords": [
+        "C#",
+        "Windows Forms",
+        "ASP.NET MVC",
+        "ASP.NET Web Forms",
+        "WCF",
+        "Web API",
+        "Webservices"
+      ]
+    },
+    {
+      "name": "DB Development",
+      "level": "Vantage",
+      "keywords": [
+        "T-SQL",
+        "DB Profiling",
+        "Query Optimization",
+        "SSIS",
+        "SSRS",
+        "MySQL"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Ukrainian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Russian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "High fluency"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "A1 Certified"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Music",
+      "keywords": [
+        "Oldschool Rock",
+        "Jimi Hendrix",
+        "Led Zeppelin",
+        "Judas Priest"
+      ]
+    },
+    {
+      "name": "Sport",
+      "keywords": [
+        "F1 racing",
+        "Gymnastics",
+        "Boxing"
+      ]
+    },
+    {
+      "name": "Other",
+      "keywords": [
+        "Yoga",
+        "Travel"
+      ]
+    }
+  ]
+}
